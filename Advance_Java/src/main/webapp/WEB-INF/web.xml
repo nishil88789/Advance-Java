@@ -1,0 +1,104 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+	<filter>
+		<filter-name>FrontController</filter-name>
+		<display-name>FrontController</display-name>
+		<description></description>
+		<filter-class>com.raysCTRL.FrontController</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>FrontController</filter-name>
+		<url-pattern>/FrontController</url-pattern>
+	</filter-mapping>
+  
+  	
+  
+  <servlet>
+  	<servlet-name>ForgotPassword</servlet-name>
+  	<display-name>ForgotPassword</display-name>
+  	<description></description>
+  	<servlet-class>com.raysModel.ForgotPassword</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ForgotPassword1</servlet-name>
+  	<display-name>ForgotPassword1</display-name>
+  	<description></description>
+  	<servlet-class>com.raysUserModel.ForgotPassword1</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>MarksheetCtr</servlet-name>
+  	<display-name>MarksheetCtr</display-name>
+  	<description></description>
+  	<servlet-class>com.raysCTRL.MarksheetCtr</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LogOutCtl</servlet-name>
+  	<display-name>LogOutCtl</display-name>
+  	<description></description>
+  	<servlet-class>com.raysCTRL.LogOutCtl</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ForgotPasswordCtl</servlet-name>
+  	<display-name>ForgotPasswordCtl</display-name>
+  	<description></description>
+  	<servlet-class>com.raysCTRL.ForgotPasswordCtl</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ForgotPasswordCtl1</servlet-name>
+  	<display-name>ForgotPasswordCtl1</display-name>
+  	<description></description>
+  	<servlet-class>com.raysCTRL.ForgotPasswordCtl</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Cook</servlet-name>
+  	<display-name>Cook</display-name>
+  	<description></description>
+  	<servlet-class>com.raysCTRL.Cook</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>GetCook</servlet-name>
+  	<display-name>GetCook</display-name>
+  	<description></description>
+  	<servlet-class>com.raysCTRL.GetCook</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>SetCook</servlet-name>
+  	<display-name>SetCook</display-name>
+  	<description></description>
+  	<servlet-class>com.raysCTRL.SetCook</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Session</servlet-name>
+  	<display-name>Session</display-name>
+  	<description></description>
+  	<servlet-class>com.raysCTRL.Session</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>StudentManagementCtl</servlet-name>
+  	<display-name>StudentManagementCtl</display-name>
+  	<description></description>
+  	<servlet-class>com.raysCTRL.StudentManagementCtl</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>VisitorCount</servlet-name>
+  	<display-name>VisitorCount</display-name>
+  	<description></description>
+  	<servlet-class>com.raysCTRL.VisitorCount</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Session1</servlet-name>
+  	<display-name>Session1</display-name>
+  	<description></description>
+  	<servlet-class>com.raysCTRL.Session1</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>StudentMgtCtl</servlet-name>
+  	<display-name>StudentMgtCtl</display-name>
+  	<description></description>
+  	<servlet-class>com.raysCTRL.StudentMgtCtl</servlet-class>
+  </servlet>
+ 
+</web-app>
